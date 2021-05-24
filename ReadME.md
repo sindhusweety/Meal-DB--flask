@@ -14,3 +14,19 @@
     
 4. Connect to database
     * touch db.py
+    * 
+5. run MealApp as a package using flask
+    
+   * ``` export FLASK_APP=import nltk
+nltk.download('wordnet')MealApp```
+    * ``` export FLASK_ENV=development```
+    *  ``` flask run``
+
+6.  http://127.0.0.1:5000/app/search_name
+   {"recipe": ["Arrabiata"]}
+    
+7. http://127.0.0.1:5000/app/ingredient_search
+    {
+   
+    "ingredient":"olive oil, penne rigate"
+}
