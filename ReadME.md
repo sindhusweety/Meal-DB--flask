@@ -17,8 +17,7 @@
     * 
 5. run MealApp as a package using flask
     
-   * ``` export FLASK_APP=import nltk
-nltk.download('wordnet')MealApp```
+   * ``` export FLASK_APP=MealApp```
     * ``` export FLASK_ENV=development```
     *  ``` flask run``
 
