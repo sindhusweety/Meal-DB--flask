@@ -19,7 +19,7 @@
     
    * ``` export FLASK_APP=MealApp```
     * ``` export FLASK_ENV=development```
-    *  ``` flask run``
+    *  ``` flask run```
 
 6.  http://127.0.0.1:5000/app/search_name
    {"recipe": ["Arrabiata"]}
